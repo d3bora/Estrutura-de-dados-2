@@ -15,8 +15,9 @@ Este repositório contém implementações simples em linguagem C para dois tipo
 ### Árvore Binária
 - Inserção manual (escolhendo esquerda ou direita da raiz).
 - Impressão dos elementos em pré-ordem (raiz, esquerda, direita).
+- Remoção
 
 ### Árvore Binária de Busca (ABB)
 - Inserção automática com base nos valores (menores vão para a esquerda, maiores para a direita).
 - Impressão dos elementos em pré-ordem.
-- (Opcional: você pode adicionar busca, remoção, etc.)
+- Remoção
