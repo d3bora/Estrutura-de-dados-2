@@ -7,6 +7,12 @@ typedef struct no {
     struct no *direito;
 } No;
 
+typedef struct no {
+    int conteudo;
+    struct no *esquerdo;
+    struct no *direito;
+} No;
+
 No* criaNo(int chave) {
     No *novo = (No*)malloc(sizeof(No));
     novo->conteudo = chave;
